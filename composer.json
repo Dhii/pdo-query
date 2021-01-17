@@ -11,12 +11,16 @@
     }
   ],
   "require": {
-    "php": "^7.1"
+    "php": "^7.1 | ^8.0",
+    "dhii/query-interface": "^0.1-alpha1",
+    "ext-pdo": "*"
   },
   "require-dev": {
     "phpunit/phpunit": "^7.0 | ^8.0 | ^9.0",
     "vimeo/psalm": "^3.11.7",
-    "slevomat/coding-standard": "^6.0"
+    "slevomat/coding-standard": "^6.0",
+    "ext-pdo_sqlite": "*",
+    "dhii/containers": "^0.1.0-alpha1"
   },
   "autoload": {
     "psr-4": {
@@ -25,7 +29,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Dhii\\PdoQuery\\Test\\": "tests"
+      "Dhii\\PdoQuery\\Test\\Func\\": "tests/functional"
     }
   },
   "extra": {
