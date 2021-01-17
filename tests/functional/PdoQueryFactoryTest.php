@@ -133,6 +133,7 @@ class PdoQueryFactoryTest extends TestCase
             $valuesString = $this->prepareValuesString($row);
             $fieldsString = $this->prepareFieldsString($row);
             $query = "INSERT INTO `$tableName` ($fieldsString) VALUES ($valuesString)";
+            var_dump($query);
             $pdo->exec($query);
         }
 
