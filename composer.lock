@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bd4de62c14ac8bd64c994873c53187d4",
+    "content-hash": "d284eebfaba0a61b5580e0ddf7a68ec5",
     "packages": [
         {
             "name": "dhii/collections-interface",
@@ -12,22 +12,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/collections-interface.git",
-                "reference": "0fa5a14c407995cb0b9634ee42f127a91f24aafc"
+                "reference": "7c7c4b4459dda9e6db406860d99916d0cee58ccf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/collections-interface/zipball/0fa5a14c407995cb0b9634ee42f127a91f24aafc",
-                "reference": "0fa5a14c407995cb0b9634ee42f127a91f24aafc",
+                "url": "https://api.github.com/repos/Dhii/collections-interface/zipball/7c7c4b4459dda9e6db406860d99916d0cee58ccf",
+                "reference": "7c7c4b4459dda9e6db406860d99916d0cee58ccf",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1",
+                "php": "^7.1 | ^8.0",
                 "psr/container": "^1.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^7.0 | ^8.0",
+                "phpunit/phpunit": "^7.0 | ^8.0 | ^9.0",
                 "slevomat/coding-standard": "^6.0",
-                "vimeo/psalm": "^3.0"
+                "vimeo/psalm": "^3.11.7 | ^4.0"
             },
             "default-branch": true,
             "type": "library",
@@ -58,9 +58,9 @@
             "description": "A highly ISP-compliant collection of interfaces that represent maps and lists.",
             "support": {
                 "issues": "https://github.com/Dhii/collections-interface/issues",
-                "source": "https://github.com/Dhii/collections-interface/tree/v0.3.0-alpha2"
+                "source": "https://github.com/Dhii/collections-interface/tree/v0.3.0-alpha3"
             },
-            "time": "2020-10-13T08:27:37+00:00"
+            "time": "2021-01-14T17:33:46+00:00"
         },
         {
             "name": "dhii/query-interface",
@@ -68,12 +68,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/query-interface.git",
-                "reference": "8199d9396f6990e49a8df546c2c570011a90476e"
+                "reference": "8cf0b81339dbd5a53b3f3edcbb1a8b1356f47d3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/query-interface/zipball/8199d9396f6990e49a8df546c2c570011a90476e",
-                "reference": "8199d9396f6990e49a8df546c2c570011a90476e",
+                "url": "https://api.github.com/repos/Dhii/query-interface/zipball/8cf0b81339dbd5a53b3f3edcbb1a8b1356f47d3e",
+                "reference": "8cf0b81339dbd5a53b3f3edcbb1a8b1356f47d3e",
                 "shasum": ""
             },
             "require": {
@@ -113,7 +113,7 @@
                 "issues": "https://github.com/Dhii/query-interface/issues",
                 "source": "https://github.com/Dhii/query-interface/tree/task/initial"
             },
-            "time": "2021-01-12T07:40:54+00:00"
+            "time": "2021-01-15T08:41:34+00:00"
         },
         {
             "name": "psr/container",
@@ -176,12 +176,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/amp.git",
-                "reference": "973878a03840043019bc535c840a480223ee761f"
+                "reference": "7d4bbc6e0b47c6bb39b6cce1a4b5942e0c5125fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/amphp/amp/zipball/973878a03840043019bc535c840a480223ee761f",
-                "reference": "973878a03840043019bc535c840a480223ee761f",
+                "url": "https://api.github.com/repos/amphp/amp/zipball/7d4bbc6e0b47c6bb39b6cce1a4b5942e0c5125fb",
+                "reference": "7d4bbc6e0b47c6bb39b6cce1a4b5942e0c5125fb",
                 "shasum": ""
             },
             "require": {
@@ -258,7 +258,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-01-11T22:57:20+00:00"
+            "time": "2021-01-13T19:16:50+00:00"
         },
         {
             "name": "amphp/byte-stream",
@@ -558,6 +558,41 @@
             "time": "2020-11-13T08:04:11+00:00"
         },
         {
+            "name": "container-interop/service-provider",
+            "version": "v0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/container-interop/service-provider.git",
+                "reference": "4969b9e49460690b7430b3f1a87cab07be61418a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/container-interop/service-provider/zipball/4969b9e49460690b7430b3f1a87cab07be61418a",
+                "reference": "4969b9e49460690b7430b3f1a87cab07be61418a",
+                "shasum": ""
+            },
+            "require": {
+                "psr/container": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Interop\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Promoting container interoperability through standard service providers",
+            "homepage": "https://github.com/container-interop/service-provider",
+            "support": {
+                "issues": "https://github.com/container-interop/service-provider/issues",
+                "source": "https://github.com/container-interop/service-provider/tree/master"
+            },
+            "time": "2017-09-20T14:13:36+00:00"
+        },
+        {
             "name": "dealerdirect/phpcodesniffer-composer-installer",
             "version": "v0.7.1",
             "source": {
@@ -626,6 +661,66 @@
                 "source": "https://github.com/dealerdirect/phpcodesniffer-composer-installer"
             },
             "time": "2020-12-07T18:04:37+00:00"
+        },
+        {
+            "name": "dhii/containers",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dhii/containers.git",
+                "reference": "f7279f4875a4ada41129a0d8eca411634c2484b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dhii/containers/zipball/f7279f4875a4ada41129a0d8eca411634c2484b9",
+                "reference": "f7279f4875a4ada41129a0d8eca411634c2484b9",
+                "shasum": ""
+            },
+            "require": {
+                "container-interop/service-provider": "^0.4",
+                "dhii/collections-interface": "^0.3.0-alpha2",
+                "php": "^7.1 | ^8.0"
+            },
+            "require-dev": {
+                "gmazzap/andrew": "^1.1",
+                "phpunit/phpunit": "^7.0",
+                "psr/container": "^1.0",
+                "psr/simple-cache": "^1.0",
+                "slevomat/coding-standard": "~4.0",
+                "wildwolf/psr-memory-cache": "^1.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dhii\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dhii Team",
+                    "email": "development@dhii.co"
+                }
+            ],
+            "description": "A selection of PSR-11 containers for utility, simplicity, and ease.",
+            "keywords": [
+                "PSR-11",
+                "container"
+            ],
+            "support": {
+                "issues": "https://github.com/Dhii/containers/issues",
+                "source": "https://github.com/Dhii/containers/tree/v0.1.3-alpha2"
+            },
+            "time": "2020-10-23T16:08:40+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2538,12 +2633,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/slevomat/coding-standard.git",
-                "reference": "e07e2d15211ca4e7c972b276f5bf7ce2c07cfca0"
+                "reference": "059efe34aac90043a289f1a4f713ae80490a35f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/e07e2d15211ca4e7c972b276f5bf7ce2c07cfca0",
-                "reference": "e07e2d15211ca4e7c972b276f5bf7ce2c07cfca0",
+                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/059efe34aac90043a289f1a4f713ae80490a35f7",
+                "reference": "059efe34aac90043a289f1a4f713ae80490a35f7",
                 "shasum": ""
             },
             "require": {
@@ -2555,10 +2650,10 @@
             "require-dev": {
                 "phing/phing": "2.16.3",
                 "php-parallel-lint/php-parallel-lint": "1.2.0",
-                "phpstan/phpstan": "0.12.64",
+                "phpstan/phpstan": "0.12.66",
                 "phpstan/phpstan-deprecation-rules": "0.12.6",
                 "phpstan/phpstan-phpunit": "0.12.17",
-                "phpstan/phpstan-strict-rules": "0.12.7",
+                "phpstan/phpstan-strict-rules": "0.12.9",
                 "phpunit/phpunit": "7.5.20|8.5.5|9.5.0"
             },
             "default-branch": true,
@@ -2592,7 +2687,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-11T10:34:02+00:00"
+            "time": "2021-01-13T14:16:06+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -2600,12 +2695,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "9bcb29cce831a8f9b2c8aee0bba1a57445f9dbf1"
+                "reference": "0aeb095248f307cc7bac7b0268ae4d5d3440f300"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/9bcb29cce831a8f9b2c8aee0bba1a57445f9dbf1",
-                "reference": "9bcb29cce831a8f9b2c8aee0bba1a57445f9dbf1",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/0aeb095248f307cc7bac7b0268ae4d5d3440f300",
+                "reference": "0aeb095248f307cc7bac7b0268ae4d5d3440f300",
                 "shasum": ""
             },
             "require": {
@@ -2649,7 +2744,7 @@
                 "source": "https://github.com/squizlabs/PHP_CodeSniffer",
                 "wiki": "https://github.com/squizlabs/PHP_CodeSniffer/wiki"
             },
-            "time": "2020-12-15T02:38:00+00:00"
+            "time": "2021-01-14T23:47:51+00:00"
         },
         {
             "name": "symfony/console",
@@ -2657,12 +2752,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "096c4d37e79f70bbac78424468b19878f96e987f"
+                "reference": "adb658b43abb668be457c1adb0e472c842dea6af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/096c4d37e79f70bbac78424468b19878f96e987f",
-                "reference": "096c4d37e79f70bbac78424468b19878f96e987f",
+                "url": "https://api.github.com/repos/symfony/console/zipball/adb658b43abb668be457c1adb0e472c842dea6af",
+                "reference": "adb658b43abb668be457c1adb0e472c842dea6af",
                 "shasum": ""
             },
             "require": {
@@ -2738,7 +2833,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-11T08:57:50+00:00"
+            "time": "2021-01-14T15:08:15+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -3350,12 +3445,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webmozart/glob.git",
+                "url": "https://github.com/webmozarts/glob.git",
                 "reference": "8da14867b709e8776d9f6272faaf844aefc695e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/glob/zipball/8da14867b709e8776d9f6272faaf844aefc695e3",
+                "url": "https://api.github.com/repos/webmozarts/glob/zipball/8da14867b709e8776d9f6272faaf844aefc695e3",
                 "reference": "8da14867b709e8776d9f6272faaf844aefc695e3",
                 "shasum": ""
             },
@@ -3392,8 +3487,8 @@
             ],
             "description": "A PHP implementation of Ant's glob.",
             "support": {
-                "issues": "https://github.com/webmozart/glob/issues",
-                "source": "https://github.com/webmozart/glob/tree/master"
+                "issues": "https://github.com/webmozarts/glob/issues",
+                "source": "https://github.com/webmozarts/glob/tree/master"
             },
             "time": "2016-08-15T15:31:26+00:00"
         },
@@ -3455,8 +3550,11 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.1"
+        "php": "^7.1",
+        "ext-pdo": "*"
     },
-    "platform-dev": [],
+    "platform-dev": {
+        "ext-pdo_sqlite": "*"
+    },
     "plugin-api-version": "2.0.0"
 }

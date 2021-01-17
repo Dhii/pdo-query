@@ -57,6 +57,10 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
       <path value="$PROJECT_DIR$/vendor/sebastian/type" />
       <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/dhii/collections-interface" />
+      <path value="$PROJECT_DIR$/vendor/dhii/query-interface" />
+      <path value="$PROJECT_DIR$/vendor/dhii/containers" />
+      <path value="$PROJECT_DIR$/vendor/container-interop/service-provider" />
     </include_path>
   </component>
   <component name="PhpInterpreters">
