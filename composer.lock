@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d284eebfaba0a61b5580e0ddf7a68ec5",
+    "content-hash": "33d55effe3061eae26ddc5a9f852057f",
     "packages": [
         {
             "name": "dhii/collections-interface",
@@ -2633,12 +2633,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/slevomat/coding-standard.git",
-                "reference": "059efe34aac90043a289f1a4f713ae80490a35f7"
+                "reference": "aa803a98f55dbd28dcacab70d8cd58a1090f693c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/059efe34aac90043a289f1a4f713ae80490a35f7",
-                "reference": "059efe34aac90043a289f1a4f713ae80490a35f7",
+                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/aa803a98f55dbd28dcacab70d8cd58a1090f693c",
+                "reference": "aa803a98f55dbd28dcacab70d8cd58a1090f693c",
                 "shasum": ""
             },
             "require": {
@@ -2687,7 +2687,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-13T14:16:06+00:00"
+            "time": "2021-01-17T08:09:06+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -3550,7 +3550,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.1",
+        "php": "^7.1 | ^8.0",
         "ext-pdo": "*"
     },
     "platform-dev": {
